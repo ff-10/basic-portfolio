@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,76 +8,92 @@
 
     <title>Contact</title>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/global.css">
 </head>
-<body>
-    
-    <header>
-        <div class="container">
 
+<body>
+
+    <header>
+        <div class="header-container">
             <div class="logo">
-                <h1>Fatali</h1>
+                <h1>
+                    Fatali
+                </h1>
             </div>
 
-            <nav>
-                <ul>
-                    <li><a id="first" href="./index.html">about</a></li>
-                    <li><a href="./portfolio.html">portfolio</a></li>
-                    <li><a id="last" href="./contact.html">contact</a></li>
-                </ul>
-            </nav>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">About</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    
     <main>
-        <div class="container">
-            <section class="mainContent">
-                <h2 class="heading">Contact me</h2>
-    
-                <form action="">
-                    <label for="name" class="formLabel">Name</label>
-                    <input type="text" id="name" class="formInput" placeholder="Your Name" required>
+        <section class="main-container">
+            <div class="main-content">
+                <p class="heading">
+                    Contact Me
+                </p>
 
-                    <label for="name" class="formLabel">Email</label>
-                    <input type="text" id="name" class="formInput" placeholder="Your Mail" required>
+                <form action="#" class="contact-form">
+                    <label for="name">
+                        Name
+                    </label>
+                    <input type="text" id="name" placeholder="Your Name" required />
+
+                    <label for="Name" id="email">
+                        Email
+                    </label>
+                    <input type="text" id="email" placeholder="Your Email" required />
 
 
-                    <label for="name" class="formLabel">Message</label>
-                    <textarea class="formInput" placeholder="Your Message" required></textarea>
-
-                    <button type="submit" class="formButton">Submit</button>
+                    <label for="Name" id="message">
+                        Message
+                    </label>
+                    <textarea type="text" class="message" placeholder="Your Name" required></textarea>
+                    <button type="submit">Submit</button>
                 </form>
-                
-                
+            </div>
 
-            </section>
-    
-            <section class="socialLinks">
-                <h2 class="heading">connect with me</h2>
-                <nav>
-                    <ul>                    
-                        <li>
-                            <a href="https://github.com/ff-10"> <img src="./src/images/github.png" alt="Image Load Failed."/> </a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/users/17751028/fatali-fataliyev"> <img src="./src/images/stackoverflow.png" alt="Image Load Failed."/> </a>
-                        </li>
-                        <li>
-                            <a href="mailto: fataliyev999@gmail.com"> <img src="./src/images/gmail.png" alt="Image Load Failed."/> </a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-        </div>
+            <div class="social-links">
+                <p class="heading">
+                    Connect with Me
+                </p>
+                <div class="social-icons">
+                    <nav>
+                        <div class="icon">
+                            <a href="https://github.com/ff-10" target="_blank">
+                                <img src="./src/images/github.png" alt="Github Image">
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="https://stackoverflow.com/users/17751028/fatali-fataliyev" target="_blank">
+                                <img src="./src/images/stackoverflow.png" alt="Stack Image">
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="mailto: fatalyev999@gmail.com">
+                                <img src="./src/images/gmail.png" alt="Gmail Image">
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
     </main>
-    
 
-    
+
     <footer>
         <p>Copright © 2022 - Fatali Fataliyev</p>
     </footer>
 
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,66 +8,85 @@
 
     <title>My Portfolio</title>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/global.css">
 </head>
-<body>
-    
-    <header>
-        <div class="container">
 
+<body>
+
+    <header>
+        <div class="header-container">
             <div class="logo">
-                <h1>Fatali</h1>
+                <h1>
+                    Fatali
+                </h1>
             </div>
 
-            <nav>
-                <ul>
-                    <li><a id="first" href="./index.html">about</a></li>
-                    <li><a href="./portfolio.html">portfolio</a></li>
-                    <li><a id="last" href="./contact.html">contact</a></li>
-                </ul>
-            </nav>
+            <div class="links">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">About</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main>
-      <div class="container">
-        <section class="mainContent">
-            <h2 class="heading">about me</h2>
+        <section class="main-container">
+            <div class="main-content">
+                <p class="heading">
+                    About Me
+                </p>
+                <div class="body">
+                    <div class="profile-image">
+                        <img src="https://via.placeholder.com/300" alt="Profile Image">
+                    </div>
 
-            <div class="profileImage">
-                <img src="https://via.placeholder.com/300" alt="Image Load Failed.">
+                    <div class="description">
+                        <p>
+                            Hello ✋ My name is Fatali, I'm a junior Front-End developer, I connecting from Azerbaijan,
+                            I'm currently a student of <a href="https://www.elshadaghazade.com/" target="blank">EACAMP</a>    
+                        </p>
+                    </div>
+                </div>
             </div>
 
-            
-            <p class="about-me-text">
-                Hello ✋ My name is Fatali, I'm a junior Front-End developer, I connecting from Azerbaijan, I'm currently student of <a href="https://www.elshadaghazade.com/" target="blank">EACAMP</a>
-            </p>
-        </section>
+            <div class="social-links">
+                <p class="heading">
+                    Connect with Me
+                </p>
+                <div class="social-icons">
+                    <nav>
+                        <div class="icon">
+                            <a href="https://github.com/ff-10" target="_blank">
+                                <img src="./src/images/github.png" alt="Github Image">
+                            </a>
+                        </div>
 
-        <section class="socialLinks">
-            <h2 class="heading">connect with me</h2>
-            <nav>
-                <ul>                    
-                    <li>
-                        <a href="https://github.com/ff-10"> <img src="./src/images/github.png" alt="Image Load Failed."/> </a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/users/17751028/fatali-fataliyev"> <img src="./src/images/stackoverflow.png" alt="Image Load Failed."/> </a>
-                    </li>
-                    <li>
-                        <a href="mailto: fataliyev999@gmail.com"> <img src="./src/images/gmail.png" alt="Image Load Failed."/> </a>
-                    </li>
-                </ul>
-            </nav>
+                        <div class="icon">
+                            <a href="https://stackoverflow.com/users/17751028/fatali-fataliyev" target="_blank">
+                                <img src="./src/images/stackoverflow.png" alt="Stack Image">
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <a href="mailto: fatalyev999@gmail.com">
+                                <img src="./src/images/gmail.png" alt="Gmail Image">
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </section>
-    </div>
     </main>
 
-    
+
     <footer>
         <p>Copright © 2022 - Fatali Fataliyev</p>
     </footer>
 
 </body>
+
 </html>
